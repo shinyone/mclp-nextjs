@@ -1,0 +1,35 @@
+{
+  "name": "launchpad",
+  "version": "1.0.0",
+  "description": "A Next.js application for a Minecraft community server.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nextjs",
+    "minecraft",
+    "community"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.1",
+    "next": "latest",
+    "postcss": "^8.5.3",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.0",
+    "@types/react": "19.1.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "tailwindcss": "^4.1.1",
+    "typescript": "latest"
+  }
+}
